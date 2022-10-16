@@ -18,7 +18,8 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
-    
+
+    <UserStats title="UPLOAD STATS" stats={statistics}/>
     </>
     
   );
